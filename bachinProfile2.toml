@@ -1,8 +1,9 @@
-[gwrite.my_own_plotter]
+[gwrite.clampedSketchbook]
 unit = "mm"
-offset_x=-193
-offset_y=25
+offset_x=-203
+offset_y=-10
 scale_y=-1
+scale_x=1
 document_start = "G21\n"
 layer_start = "(Start Layer)\n"
 line_start = "(Start Block)\n"

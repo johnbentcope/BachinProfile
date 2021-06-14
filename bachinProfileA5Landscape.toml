@@ -7,12 +7,12 @@ scale_x=3.784
 document_start = "G21\n"
 layer_start = "(Start Layer)\n"
 line_start = "(Start Block)\n"
-segment_first = """G00 Z1
+segment_first = """G01 Z0
 G00 X{x:.4f} Y{y:.4f}
-G01 Z4 F3500
+G01 Z4 F1500
 """
-segment = """G01 X{x:.4f} Y{y:.4f} Z4\n"""
-line_end = """G00 Z 2.0000
+segment = """G01 X{x:.4f} Y{y:.4f} Z4 F1500\n"""
+line_end = """G01 Z 3.0000
 G4 P0.0\n"""
 document_end = """G00 Z 0.0000
 G4 P0.1
